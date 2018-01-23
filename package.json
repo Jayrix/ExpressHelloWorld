@@ -5,12 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "wp": "./node_modules/.bin/webpack"
+    "wp": "./node_modules/.bin/webpack",
+    "dev": "nodemon app.js"
   },
   "author": "JK",
   "license": "ISC",
   "devDependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "nodemon": "^1.14.11"
   },
-  "dependencies": {}
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "mongodb": "^3.0.1"
+  }
 }
